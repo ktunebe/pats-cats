@@ -26,5 +26,14 @@ button {
     margin: 2rem;
     padding: .5rem;
     background-color: var(--light-text);
+    color: var(--main-bc);
     border-radius: 1rem;
+}
+
+button:visited {
+    color: var(--main-bc)
+}
+
+button:active {
+    color: var(--main-bc)
 }
