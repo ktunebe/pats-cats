@@ -1,0 +1,30 @@
+:root {
+    --main-bc: rgb(83, 83, 83);
+    --light-text: #fcffe0;
+    --accent: #f0e119;
+}
+
+body {
+    background-color: var(--main-bc);
+    color: var(--light-text);
+    text-align: center;
+}
+
+h1 {
+    font-size: 2rem;
+}
+
+header {
+    background-color: var(--accent);
+    color: var(--main-bc);
+    height: 5rem;
+    padding: 2rem;
+    text-align: center;
+}
+
+button {
+    margin: 2rem;
+    padding: .5rem;
+    background-color: var(--light-text);
+    border-radius: 1rem;
+}
